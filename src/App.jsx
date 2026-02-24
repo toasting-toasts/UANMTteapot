@@ -1,8 +1,11 @@
+import Header from "./Header/Header";
+
 function App() {
 
   return (
     <>
-      <h1>hi!</h1>
+      <Header/>
+      <p>this is site</p>
     </>
   )
 }
