@@ -1,9 +1,9 @@
-import {styles} from "/Header.module.scss"
+import styles from "./Header.module.scss"
 function Header() {
 
     return (
         <header className={styles.header}>
-        <img src="" alt="No image loaded/bad connection"/>
+        <img src="#" alt="No image loaded/bad connection"/>
   
         <nav>
           <p>Login</p>
