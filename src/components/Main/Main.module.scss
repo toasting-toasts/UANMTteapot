@@ -1,0 +1,10 @@
+@use "../../styles/colors" as c;
+@use "../../styles/fonts" as f;
+
+.wrapper {
+    display: flex;
+    gap: 2rem;
+    background-color: c.$bg-500;
+    color: c.$text-on-primary;
+    flex: 1;
+}
