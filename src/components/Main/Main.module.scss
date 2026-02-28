@@ -1,10 +1,18 @@
 @use "../../styles/colors" as c;
 @use "../../styles/fonts" as f;
 
-.wrapper {
-    display: flex;
-    gap: 2rem;
-    background-color: c.$bg-500;
-    color: c.$text-on-primary;
+main{
     flex: 1;
+    padding: 1rem;
+    background-color: c.$bg-300;
+    margin-left: 190px;
+    min-height: 100vh;
+}
+
+.scrollbar{
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    width: 190px;
 }
