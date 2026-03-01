@@ -7,9 +7,9 @@ function Header() {
         <img src="#" alt="No image loaded yet/bad connection" onClick={() => window.location.href = '/home'}/>
 
         <nav>
-          <p>Login</p>
-          <p>Register</p>
-          <p> ~PLACEHOLDER~ </p>
+          <NavLink to="/home">На головну</NavLink>
+          <NavLink to="/login">Увійти</NavLink>
+          <NavLink to="/register">Зареєструватись</NavLink>
         </nav>
       </header>
     )

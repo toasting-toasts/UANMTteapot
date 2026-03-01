@@ -4,9 +4,9 @@ import EmptyPage1 from '../Pages/EmptyPage1/EmptyPage1';
 const pages = [
     {
         "id": 1,
-        "name": "Пусто",
-        "path": "/empty1",
-        "component": <EmptyPage1/>
+        "name": "На головну",
+        "path": "/home",
+        "component": <Home/>
     },
     {
         "id": 2,

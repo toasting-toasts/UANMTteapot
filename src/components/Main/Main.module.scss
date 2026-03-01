@@ -6,7 +6,7 @@ main{
     padding: 1rem;
     background-color: c.$bg-300;
     margin-left: 190px;
-    min-height: 100vh;
+    min-height: calc(100vh - 50px);
 }
 
 .scrollbar{
